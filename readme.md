@@ -1,18 +1,35 @@
-# Laravel PHP Framework
+# Autodesk Forge PHP IoT Sample
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Autodesk Forge PHP IoT Sample demonstrates a php application to connect to Autodesk Forge APIs with IoT sensor devices.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+Autodesk Forge Platform: https://developer.autodesk.com/
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+First, to run the sample project, you need to setup Laravel development environment on your local machine.
 
-## Official Documentation
+## Laravel Installation
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+The Laravel framework has a few system requirements.  
+The sample project is built for Laravel version 5.2 and this version requires PHP >= 5.9.  
+It's highly recommended that you use Laravel Homestead virtual machine as your local development environment.
+
+Laravel Homestead is a VagrantBox which is provided in Laravel official site.  
+This is a virtual machine that all of these requirements are satisfied.  
+Before launching Laravel Homestead environment, you must install VirtualBox or VMWare, and Vagrant on your local.  
+Vagrant enables users to create and configure lightweight, reproducible, and portable development environments.
+
+To install and setup Laravel Homestead including Vagrant, please visit the following link.
+
+[Laravel Homestead Installation](https://laravel.com/docs/5.2/homestead)
+
+If you don't want to use Laravel Homestead, you need to install software separately; PHP, Web server(Apache), DB(MySQL), and Composer.  
+You can also install XAMMP application.  
+Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them.
+
+## Setup the sample project
+
+After installation of Laravel Homestead, you can start by referencing below readme.
+
+https://github.com/ogaryu/bim360-field-basic-php-sample/blob/master/readme.md
 
 ## Contributing
 
