@@ -1,0 +1,2 @@
+2016-06-11 15:00:52[log]->url:https://developer.api.autodesk.com/authentication/v1/authenticate ,http_code:200 ,response:{"token_type":"Bearer","expires_in":86399,"access_token":"LQ60f4Cc0wXXB3TBmr5qAhPpys1U"}
+2016-06-11 15:00:52[log]->[success] get token success, token:LQ60f4Cc0wXXB3TBmr5qAhPpys1U

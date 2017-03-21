@@ -1,0 +1,221 @@
+/* SCSS */
+body {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Raleway';
+  margin-top: 25px;
+}
+
+button .fa {
+  margin: 3px 6px 3px 0px;
+}
+
+.table-text div {
+  padding-top: 6px;
+}
+
+.navbar-default {
+  background-color: #3c3c3c; }
+
+.navbar-default .navbar-brand {
+  color: #FFFFFF; }
+
+.main-parent-container {
+  height: 350px;
+  overflow: hidden; }
+
+.main-actual-container {
+  height: 350px;
+  overflow-y: scroll;
+  padding-right: 20px; }
+
+.issues-table {
+  width: 1400px;
+  font-size: 14px; }
+
+.issues-panel-body {
+  /*max-height: 300px;*/
+  /*overflow: scroll; */
+}
+
+.request-box {
+  height: 40px;
+  margin: 0 8px 20px 6px;
+  font-size: 14px;
+  overflow-y: scroll; }
+
+.response-box {
+  height: 100px;
+  margin: 0 8px 20px 6px;
+  font-size: 14px;
+  overflow-y: scroll; }
+
+body > .main-container {
+  margin: 26px 0 20px 0;
+  padding: 0px;
+  /*height: 65vh;*/
+  /*overflow-y: scroll;*/
+  /*overflow-x: hidden;*/
+  /*padding: 24px 0 24px 10px;*/
+  width: 100%; 
+}
+
+.footer {
+  display:none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 28vh;
+  background-color: #C5D3E8;
+  overflow: hidden;
+  padding-top: 20px;
+  border-top: solid 5px #769AD2; }
+
+.footer-container {
+  width: 100%; }
+
+.modal-header {
+  background-color: #CFE4FF;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px; }
+
+#autodesk-login-iframe {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+.user-profile{
+  position: relative;
+  width:200px;
+  height: 34px;
+  margin: 0px 20px;
+}
+
+.user-name{
+  position: relative;
+  width:200px;
+  height: 20px;
+  margin: 0px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.user-email{
+  position: relative;
+  width:200px;
+  height: 14px;
+  margin: 0px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.panel {
+  margin: 0px;
+  padding: 0px;
+  border :none;
+  border-radius: 0px;
+}
+
+.panel-default {
+  border :none;
+}
+
+.panel-default>.panel-heading {
+  color: #ffffff !important;
+  padding: 0px !important;
+  border-color: #f1f1f1 !important;
+  background-color: #92c6ec;
+  border-radius: 0px !important;
+}
+
+.panel-default>.panel-heading h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: normal;
+  padding: 8px 0px;
+  margin: 4px 4px 4px 10px;
+  max-width: 120px;
+}
+
+.panel-title-left {
+  width: 75%;
+}
+
+.panel-title-right {
+  width: 25%;
+}
+
+.panel-body{
+  padding: 0px;
+}
+
+.panel-body-left {
+  max-height: 377px;
+  overflow-y: scroll;
+  padding: 0px; 
+}
+
+.table {
+  margin: 0px !important;
+}
+
+.table-text {
+  font-size: 14px;
+  width: 100%;
+  padding-left: 12px !important;
+}
+
+.table-btn {
+  float: right;
+}
+
+.header-right-btn{
+  margin: 4px 4px 4px 0px;
+  width: 110px;
+  padding: 6px 8px;
+}
+
+.header-right-btn .fa {
+  float: left;
+}
+
+.devided-container{
+  margin: 0px;
+  padding: 0px;
+}
+
+#information-panel {
+  background-color: #3c3c3c;
+  width: 100%;
+  height: 100px;
+}
+
+.forge-logo {
+  width: 40px;
+  margin: 10px 10px 10px 10px;
+  float:left;
+}
+
+.container-fluid{
+  padding-left: 0px;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-left: 0px;
+}
+
+.navbar-brand {
+  padding: 15px 0px;
+}
+
+@media (min-width: 768px) {
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+  }
+
+}
+
+/*# sourceMappingURL=app.css.map */

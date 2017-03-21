@@ -1,0 +1,25 @@
+2016-06-06 11:26:40[log]->url:https://developer.api.autodesk.com/authentication/v1/authenticate ,http_code:200 ,response:{"token_type":"Bearer","expires_in":1799,"access_token":"nt4RgYUfsBfI4JFV7jef5pem1zap"}
+2016-06-06 11:26:40[log]->[success] get token success, token:nt4RgYUfsBfI4JFV7jef5pem1zap2016-06-06 11:57:19[log]->url:https://developer.api.autodesk.com/authentication/v1/authenticate ,http_code:200 ,response:{"token_type":"Bearer","expires_in":1799,"access_token":"GtbWeyrBzIKf47fd9wvUzzrp2g4E"}
+2016-06-06 11:57:19[log]->[success] get token success, token:GtbWeyrBzIKf47fd9wvUzzrp2g4E2016-06-06 12:00:13[log]->url:https://developer.api.autodesk.com/oss/v1/buckets/bucket_20160601/objects/rac_basic_sample_project_1465185597.rvt ,http_code:200 ,response:{
+  "bucket-key" : "bucket_20160601",
+  "objects" : [ {
+    "id" : "urn:adsk.objects:os.object:bucket_20160601/rac_basic_sample_project_1465185597.rvt",
+    "key" : "rac_basic_sample_project_1465185597.rvt",
+    "sha-1" : "55d89511380aeaa070be7072ed7a57d89172e5f3",
+    "size" : 17215488,
+    "content-type" : "application/octet-stream",
+    "location" : "https://developer.api.autodesk.com/oss/v1/buckets/bucket_20160601/objects/rac_basic_sample_project_1465185597.rvt"
+  } ]
+}2016-06-06 12:00:13[log]->[success] upload file request success, Urn:urn:adsk.objects:os.object:bucket_20160601/rac_basic_sample_project_1465185597.rvt , 64baseUrn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YnVja2V0XzIwMTYwNjAxL3JhY19iYXNpY19zYW1wbGVfcHJvamVjdF8xNDY1MTg1NTk3LnJ2dA==2016-06-06 12:00:15[log]->url:https://developer.api.autodesk.com/viewingservice/v1/register ,http_code:200 ,response:{"Result":"Success","Scope":"48cc4069-8c64-42d2-9a42-197806396fae","RegisterType":["thumbnail","2dviewing","3dviewing"]}2016-06-06 12:00:15[log]->[success] start translation , result:Success2016-06-06 12:02:01[log]->url:https://developer.api.autodesk.com/oss/v1/buckets/bucket_20160601/objects/rac_basic_sample_project_1465185707.rvt ,http_code:200 ,response:{
+  "bucket-key" : "bucket_20160601",
+  "objects" : [ {
+    "id" : "urn:adsk.objects:os.object:bucket_20160601/rac_basic_sample_project_1465185707.rvt",
+    "key" : "rac_basic_sample_project_1465185707.rvt",
+    "sha-1" : "55d89511380aeaa070be7072ed7a57d89172e5f3",
+    "size" : 17215488,
+    "content-type" : "application/octet-stream",
+    "location" : "https://developer.api.autodesk.com/oss/v1/buckets/bucket_20160601/objects/rac_basic_sample_project_1465185707.rvt"
+  } ]
+}2016-06-06 12:02:01[log]->[success] upload file request success, Urn:urn:adsk.objects:os.object:bucket_20160601/rac_basic_sample_project_1465185707.rvt , 64baseUrn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YnVja2V0XzIwMTYwNjAxL3JhY19iYXNpY19zYW1wbGVfcHJvamVjdF8xNDY1MTg1NzA3LnJ2dA==2016-06-06 12:02:03[log]->url:https://developer.api.autodesk.com/viewingservice/v1/register ,http_code:200 ,response:{"Result":"Success","Scope":"ba5b9ae9-c7e5-4a1f-925b-9c1d94c06b83","RegisterType":["thumbnail","2dviewing","3dviewing"]}2016-06-06 12:02:03[log]->[success] start translation , result:Success2016-06-06 12:30:32[log]->url:https://developer.api.autodesk.com/authentication/v1/authenticate ,http_code:200 ,response:{"token_type":"Bearer","expires_in":1799,"access_token":"rEUblmeA1QJNH5M7rAmQKwZFgyfc"}
+2016-06-06 12:30:32[log]->[success] get token success, token:rEUblmeA1QJNH5M7rAmQKwZFgyfc2016-06-06 13:15:33[log]->url:https://developer.api.autodesk.com/authentication/v1/authenticate ,http_code:200 ,response:{"token_type":"Bearer","expires_in":1799,"access_token":"gdv0S9NNjMamoweVzb0yqudds7Vb"}
+2016-06-06 13:15:33[log]->[success] get token success, token:gdv0S9NNjMamoweVzb0yqudds7Vb

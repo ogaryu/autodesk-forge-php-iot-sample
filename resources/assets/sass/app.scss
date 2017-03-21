@@ -1,0 +1,96 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$color-base:#000000;
+$color-sub:#333333;
+$color-key:#ff8a8a;
+
+$fontsize-base:16px;
+$fontsize-title:30px;
+
+
+/* SCSS */
+body{
+  color: $color-base;
+  font-size: $fontsize-base;
+}
+
+.navbar-default{
+  background-color: #3E6EB7;
+}
+
+.navbar-default .navbar-brand{
+  color: #FFFFFF;
+}
+
+.main-parent-container{
+  height: 350px;
+  overflow: hidden;
+}
+
+.main-actual-container{
+  height: 350px;
+  overflow-y: scroll;
+  padding-right: 20px;
+}
+
+.issues-table {
+  width: 1400px;
+  font-size: 14px;
+}
+
+.issues-panel-body{
+  max-height:300px;
+  overflow: scroll;
+}
+
+.request-box {
+  height: 40px;
+  margin:0 8px 20px 6px;
+  font-size: 14px;
+  overflow-y: scroll;
+}
+.response-box {
+  height: 100px;
+  margin: 0 8px 20px 6px;
+  font-size: 14px;
+  overflow-y: scroll;
+}
+
+body > .main-container {
+  margin: 26px 0 20px 0;
+  height: 65vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding:24px 0 24px 10px;
+  width: 100%
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 28vh;
+  background-color: #C5D3E8;
+  overflow: hidden;
+  padding-top:20px;
+  border-top: solid 5px #769AD2;
+}
+
+.footer-container {
+  width: 100%;
+}
+
+.panel-heading h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: normal;
+  width: 75%;
+  padding-top: 8px;
+}
+
+.modal-header{
+  background-color: #CFE4FF;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
